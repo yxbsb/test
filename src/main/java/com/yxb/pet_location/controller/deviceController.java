@@ -22,7 +22,6 @@ import java.util.List;
 public class deviceController {
     @Autowired
     deviceService deviceService;
-///
 
     @CrossOrigin
     @PostMapping(value="/listByPage")
